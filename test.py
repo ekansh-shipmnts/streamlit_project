@@ -78,5 +78,5 @@ def main():
 
         st.image(image, channels="BGR", use_column_width=True)
 
-if _name_ == "_main_":
+if __name__ == '__main__':
     main()
